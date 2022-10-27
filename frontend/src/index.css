@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+::selection {
+  background-color: #f5f5dc;
+}
 a {
   text-decoration: none;
   color: #000000;
@@ -13,4 +15,21 @@ button {
 }
 ul {
   list-style: none;
+}
+/* Dashboard styling */
+.d-title {
+  margin: 20px 40px;
+  color: #000000;
+  letter-spacing: 2px;
+}
+.d-groups {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.d-group {
+  width: 200px;
+  height: 150px;
+  box-shadow: 0 0 4px #cccccc;
 }

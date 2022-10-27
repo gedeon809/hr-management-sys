@@ -13,3 +13,80 @@
   height: 80px;
   border-bottom: 1px solid #cccccc;
 }
+.s-logo {
+  font-size: 40px;
+  text-align: center;
+  margin: 20px 0;
+}
+.s-groups {
+  margin: 10px 15px;
+}
+.s-group {
+  margin-bottom: 25px;
+}
+.s-group .s-link {
+  text-transform: uppercase;
+}
+.s-group .s-link::before {
+  content: '**';
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.s-group .s-link.active::before {
+  content: '\1F81E';
+  vertical-align: baseline;
+}
+.l-container {
+  height: 100vh;
+}
+.l-container .l-row {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.l-container form {
+  width: 500px;
+  border: 1px solid #cccccc;
+}
+.l-title {
+  text-align: center;
+  margin: 20px 0 50px 0;
+  font-size: 40px;
+}
+.l-groups {
+  padding: 0 15px;
+}
+.l-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.l-group label {
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+}
+.l-group input {
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid #000000;
+  padding: 0 15px;
+  outline: none;
+  letter-spacing: 2px;
+}
+.l-btn {
+  display: block;
+  margin: 40px auto 15px auto;
+  width: max-content;
+  padding: 5px 15px;
+  border: none;
+  box-shadow: 0 0 3px #000000;
+  font-size: 20px;
+  background-color: transparent;
+  letter-spacing: 2px;
+  transition: all 0.5s;
+}
+.l-btn:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
